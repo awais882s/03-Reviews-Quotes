@@ -112,3 +112,8 @@ main {
   display: grid;
   place-items: center;
 }
+/* modal */
+.hero{
+  min-height: 100vh;
+  background: url(());
+}
