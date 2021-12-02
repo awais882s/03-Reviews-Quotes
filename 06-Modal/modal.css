@@ -113,7 +113,28 @@ main {
   place-items: center;
 }
 /* modal */
-.hero{
+.hero {
   min-height: 100vh;
-  background: url(());
+  background: url("./pic/hero1.jpg") center/cover no-repeat;
+  display: grid;
+  place-items: center;
+}
+.banner {
+  background: white;
+  padding: 4rem 0;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 50vw;
+  max-width: 620px;
+  border-radius: 0.5rem;
+}
+.modal-btn{
+  margin-top: 2rem;
+  background: #49a6e9;
+  border-color: #49a6e9;
+  color: white;
+}
+.modal-btn:hover{
+  background: transparent;
+  color: #49a6e9;
 }
