@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: larger;
+  font-family: "sans", sans-serif;
+  font-family: "Shippori Antique", sans-serif;
+  color: #130f40;
+  font-weight: bolder;
+  font-size: xx-large;
+  letter-spacing: 5px;
+  margin-top: 70px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mybtn {
+  width: 140px;
+  height: 35px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid black;
+  background-color: transparent;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mybtn:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+#value {
+  font-size: 6rem;
+  font-weight: lighter;
+  /* --ff-secondary: "Open Sans", sans-serif; */
+}
