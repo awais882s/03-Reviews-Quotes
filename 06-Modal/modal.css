@@ -178,7 +178,7 @@ main {
   transition: all 0.3s linear;
   color: hsl(360, 67%, 44%);
 }
-.close-btn {
+.close-btn:hover {
   color: hsl(360, 71%, 66%);
   transform: scale(1.3);
 }
