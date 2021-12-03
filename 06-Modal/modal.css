@@ -148,7 +148,7 @@ main {
   display: grid;
   place-items: center;
   transition: all 0.3s linear;
-  /* visibility: hidden; */
+  visibility: hidden;
   z-index: -10;
 }
 /* open close modal */
