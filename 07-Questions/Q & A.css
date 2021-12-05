@@ -109,3 +109,16 @@ main{
   display: grid;
   place-items: center;
 }
+/* Questions */
+.title{
+  margin-top: 15vh;
+  margin-bottom: 4rem;
+}
+.title h2{
+  color: #c59d5f;
+  font-family: "Great Vibes" , cursive;
+  text-align: center;
+}
+.section-center{
+  max-width: 620px;
+}
