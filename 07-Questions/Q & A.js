@@ -10,9 +10,7 @@ questions.forEach(function (question) {
     questions.forEach(function (item) {
       // console.log(item);
       if (item !== question) {
-        item.classList.remove("show-text")
-
-        
+        item.classList.remove("show-text");
       }
     });
     question.classList.toggle("show-text");
