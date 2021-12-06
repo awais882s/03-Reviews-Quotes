@@ -129,13 +129,13 @@ main {
   z-index: -999;
   visibility: hidden;
 } */
-header{
+header {
   min-height: 100vh;
   position: relative;
   display: grid;
   place-items: center;
 }
-.video-container{
+.video-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -144,7 +144,20 @@ header{
   object-fit: cover;
   z-index: -2;
 }
-h1{
-  color: white
-  ;
+h1 {
+  color: white;
+}
+/* Switch Button */
+.switch-btn {
+  position: absolute;
+  bottom: 7%;
+  left: 7%;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  justify-content: space-around;
+  border: none;
+  height: 2rem;
+  transition: all 0.3s linear;
 }
