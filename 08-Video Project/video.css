@@ -111,7 +111,7 @@ main {
   display: grid;
   place-items: center;
 }
-.preloader {
+/* .preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -128,4 +128,23 @@ main {
 .hide-preloader{
   z-index: -999;
   visibility: hidden;
+} */
+header{
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.video-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+h1{
+  color: white
+  ;
 }
