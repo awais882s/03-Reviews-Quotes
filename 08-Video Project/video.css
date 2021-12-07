@@ -180,7 +180,7 @@ h1 {
   display: block;
   transition: all 0.3s linear;
 }
-.slide.switch {
+.slide .switch {
   left: 50%;
 }
 /* header after */
