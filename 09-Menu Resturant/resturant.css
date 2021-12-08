@@ -145,3 +145,17 @@ main {
   gap: 2rem 3rem;
   justify-content: center;
 }
+.photo {
+  object-fit: cover;
+  height: 200px;
+  border: 0.25rem solid #c59d5f;
+  border-radius: 0.5rem;
+}
+.item-info header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px dotted black;
+}
+.item-info h4{
+  margin-bottom: 0.5rem;
+}
