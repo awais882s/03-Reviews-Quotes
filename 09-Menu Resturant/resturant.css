@@ -133,7 +133,15 @@ main {
   cursor: pointer;
   transition: all 0.3s linear;
 }
-.filter-btn:hover{
+.filter-btn:hover {
   background-color: #c59d5f;
   color: white;
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 2rem 3rem;
+  justify-content: center;
 }
