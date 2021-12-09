@@ -109,7 +109,7 @@ main {
   max-width: 80rem;
   position: relative;
   border-radius: 0.5rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-top: 4rem;
 }
 .slide {
@@ -120,7 +120,7 @@ main {
   color: white;
   display: grid;
   place-items: center;
-  transition: all 0.25s ease-in-out;
+  transition: all 3s ease-in-out;
   text-align: center;
 }
 .slide-img {
@@ -183,3 +183,18 @@ main {
     height: 65vh;
   }
 }
+/* .slide:nth-child(1) {
+  left: 0;
+}
+.slide:nth-child(2){
+  left: 100%;
+}
+.slide:nth-child(3){
+  left: 200%;
+}
+.slide:nth-child(4){
+  left: 300%;
+}
+.slide{
+  transform: translateX(0%);
+} */
