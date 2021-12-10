@@ -137,20 +137,20 @@ main {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-/* .slide:nth-child(1) h1 {
+.slide:nth-child(1) h1 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-} */
+}
 .slide:nth-child(3) {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(./pic/img2.jpg) center/cover no-repeat;
 }
-.slide:nth-child(4) {
+/* .slide:nth-child(4) {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(./pic/img3.jpg) center/cover no-repeat;
-}
+} */
 .btn-container {
   display: flex;
   justify-content: center;
