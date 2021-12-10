@@ -120,7 +120,7 @@ main {
   color: white;
   display: grid;
   place-items: center;
-  transition: all 3s ease-in-out;
+  transition: all 0.25s ease-in-out;
   text-align: center;
 }
 .slide-img {
@@ -167,7 +167,7 @@ main {
   letter-spacing: 2px;
   color: #1e3799;
   transition: all 0.3s linear;
-  box-shadow: 3px 3px 5px green;
+  box-shadow: 2px 2px 5px black;
   border-radius: 0.875rem;
 }
 .prevbtn:hover,
