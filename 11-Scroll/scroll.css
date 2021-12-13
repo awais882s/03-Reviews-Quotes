@@ -211,4 +211,43 @@ nav {
   .links {
     display: flex;
   }
+  .links a {
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    display: block;
+    transition: all 0.3s linear;
+    margin: 0 1rem;
+    font-weight: bold;
+    padding: 0;
+  }
+  .links a:hover {
+    color: white;
+  }
 }
+/* Hero */
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
+    url(./pic/hero-bcg.jpeg) center/cover no-repeat;
+}
+.banner {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.container h1 {
+  color: white;
+  max-width: 25rem;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .container p {
+    max-width: 40rem;
+  }
+}
+
