@@ -277,3 +277,33 @@ footer p {
   letter-spacing: 0.25rem;
   margin-bottom: 0;
 }
+.top-link {
+  font-size: 1.25rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  height: 2rem;
+  display: grid;
+  width: 2rem;
+  place-items: center;
+  border-radius: 0.5rem;
+  color: white;
+  animation: bounce 2s ease-in-out infinite;
+  visibility: hidden;
+  z-index: -100;
+}
+.show-links {
+  visibility: visible;
+  z-index: 100;
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
