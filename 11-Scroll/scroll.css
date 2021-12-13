@@ -250,4 +250,30 @@ header {
     max-width: 40rem;
   }
 }
-
+/* sections and title */
+.title h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.title span {
+  color: hsla(182, 63%, 54%);
+}
+#about,
+#services,
+#tours {
+  height: 80vh;
+}
+#services {
+  background: white;
+}
+footer {
+  background-color: hsl(209, 61%, 16%);
+  padding: 5rem 1rem;
+}
+footer p {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  margin-bottom: 0;
+}
