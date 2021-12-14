@@ -242,6 +242,7 @@ header {
 }
 .container h1 {
   color: white;
+  display: inline;
   max-width: 25rem;
   margin: 0 auto;
   margin-bottom: 1.25rem;
