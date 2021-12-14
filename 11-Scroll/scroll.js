@@ -80,3 +80,25 @@ window.addEventListener("scroll", function () {
     topLink.classList.remove("show-link");
   }
 });
+
+// ********************* scroll smooth *********************
+
+// select links
+
+const scrollLinks = document.querySelectorAll(".scroll-link");
+
+scrollLinks.forEach(function (link) {
+  link.addEventListener("click", function (e) {
+    // prevent default
+    e.preventDefault();
+    // navigate to specific spot
+    const id = e.currentTarget.getAttribute("href").slice(1);
+    const element = document.getElementById(id);
+    let position = element.offsetTop;
+    console.log(position);
+    window.scrollTo({
+      left: 0,
+      top: position,
+    });
+  });
+});
