@@ -144,9 +144,9 @@ nav {
 .fixed-nav .links a:hover {
   color: hsla(182, 63%, 54%);
 }
-.fixed-nav .links-container {
+/* .fixed-nav .links-container {
   height: auto !important;
-}
+} */
 .nav-header {
   display: flex;
   align-items: center;
@@ -289,10 +289,12 @@ footer p {
   border-radius: 0.5rem;
   color: white;
   animation: bounce 2s ease-in-out infinite;
+
+
   visibility: hidden;
   z-index: -100;
 }
-.show-links {
+.show-link{
   visibility: visible;
   z-index: 100;
 }
