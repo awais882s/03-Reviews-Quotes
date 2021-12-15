@@ -180,3 +180,13 @@ About
   border-bottom-right-radius: 0.5rem;
   padding: 2rem 1.5rem;
 }
+/* Hide content */
+.content{
+  display: none;
+}
+.tab-btn.active{
+  background-color: white;
+}
+.content.active{
+  display: block;
+}
