@@ -1,7 +1,7 @@
 const months = [
-  "Jan",
-  "Feb",
-  "Mar",
+  "January",
+  "Febuary",
+  "March",
   "April",
   "May",
   "June",
@@ -12,14 +12,22 @@ const months = [
   "Nov",
   "Dec",
 ];
-const weeks = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"];
+const weeks = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
 
 const giveaway = document.querySelector(".giveaway");
 const deadline = document.querySelector(".deadline");
 const items = document.querySelectorAll(".deadline-format h4");
 // console.log(items);
 // for new current dates
-let futureDate = new Date(2000, 04, 09, 11, 30, 0);
+let futureDate = new Date(2021, 11, 26, 11, 30, 0);
 // new Date(2000, 04, 09, 11, 30, 0) if you pass these values then this show
 // otherswise current date time shows
 // console.log(futureDate);
@@ -34,7 +42,7 @@ month = months[month];
 const date = futureDate.getDate();
 const weekday = weeks[futureDate.getDay()];
 // console.log(weekday);
-giveaway.textContent = `giveaway end on ${weekday} ${date} ${month} ${year} ${hours}:${mintues}AM`;
+giveaway.textContent = `giveaway end on ${weekday}, ${date} ${month} ${year} ${hours}:${mintues}AM`;
 
 // future time in ms
 const futureTime = futureDate.getTime();
@@ -56,5 +64,14 @@ function getRemainingTime() {
   // console.log("One Mintue:", oneMintue);
   // console.log("One Day:", oneDay);
   // =================== calculate all values =================================//
+  let days = t / oneDay;
+  days = Math.floor(days);
+  // console.log("days:", days);
+  let hours = Math.floor((t % oneDay) / oneHour);
+  // console.log(hours);
+  let mintues = Math.floor((t % hours) / oneDay);
+  let seconds = Math.floor((t % oneMintue) / 1000);
+
+
 }
 getRemainingTime();
