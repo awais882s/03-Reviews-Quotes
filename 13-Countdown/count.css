@@ -156,7 +156,10 @@ main {
   display: block;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 0.85rem;
+  font-size: 1rem;
+}
+.deadline h4{
+  font-size: 1.3rem;
 }
 /* .deadline h4:not(.expired) {
   font-size: 2rem;
