@@ -119,5 +119,32 @@ main {
 /* lorem ipsum */
 h3 {
   text-transform: uppercase;
-
+  color: hsl(205, 86%, 17%);
+}
+.lorem-form {
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  font-size: 1.25rem;
+  color: hsl(205, 86%, 17%);
+}
+input {
+  padding: 0.25rem 0.5rem;
+  width: 4rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+}
+button {
+  background-color: hsl(205, 100%, 96%);
+}
+.result {
+  margin-bottom: 2rem;
 }
