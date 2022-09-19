@@ -146,10 +146,7 @@ main {
   background-color: hsl(209, 61%, 16%);
   color: white;
   margin-right: 1rem;
-  width: 5rem;
-  height: 5rem;
-  display: grid;
-  place-items: center;
+  padding: 10px 20px;
   text-align: center;
 }
 .deadline-format span {
@@ -158,7 +155,7 @@ main {
   letter-spacing: 2px;
   font-size: 1rem;
 }
-.deadline h4{
+.deadline h4 {
   font-size: 1.3rem;
 }
 /* .deadline h4:not(.expired) {
